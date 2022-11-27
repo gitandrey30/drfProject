@@ -175,6 +175,8 @@ def get_person(request, pk=None):
 
 ''''''
 
+def get_com(request)
+    pass
 class Super(APIView):
     # authentication_classes = [SessionAuthentication, BasicAuthentication]
     permission_classes = [IsAuthenticated]
